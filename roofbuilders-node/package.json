@@ -1,0 +1,24 @@
+{
+  "name": "roofbuilders-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@fastify/formbody": "^7.3.0",
+    "bcryptjs": "^2.4.3",
+    "fastify": "^4.9.2",
+    "fastify-jwt": "^4.2.0",
+    "fastify-oauth-server": "^3.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^6.7.1",
+    "nodemon": "^2.0.20",
+    "randombytes": "^2.1.0",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "start": "nodemon start",
+    "run": "node start"
+  }
+}
